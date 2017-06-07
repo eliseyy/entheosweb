@@ -317,7 +317,7 @@ li{
     position: absolute;
     top:2500px;
     padding-top:100px;
-    padding-bottom: 50px;
+    padding-bottom:100px;
 }
 .gallery h2{
     margin-bottom: 73px;
@@ -343,6 +343,13 @@ li{
     border-radius: 50%;
     border: 1px solid #4d5156;
     background: #2f343a;
+    transition: 1s;
+}
+.gallery button:hover {
+    background-color:#fff;
+}
+.gallery button:hover a{
+    color:#000;
 }
 .gallery button a{
     color:#fff;
@@ -364,7 +371,17 @@ li{
     background: #fe7676;
     color: #fff;
     font-size: 10px;
+    transition: 0.5s;
 }
+.gallery .pic .time:hover{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000;
+    color:#fff;
+}
+
 .gallery .pic .time p{
     position: absolute;
     top:50%;
@@ -381,6 +398,7 @@ li{
     top:3300px;
     background-color: #faf6f1;
     padding-bottom:50px;
+    padding-top:50px;
 }
 .show-state li{
     width:33%;
